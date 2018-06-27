@@ -8,4 +8,4 @@ const selctedBook = (state, action)=> {
     // switch here
 }
 
-export  listBooks,selctedBook
+export  {listBooks,selctedBook}
