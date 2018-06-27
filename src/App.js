@@ -9,11 +9,10 @@ class App extends Component {
             <div className="App">
                 <div className="container">
                 <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-4">
                         <BookList/>
-
                     </div>
-                    <div className="col-sm-9">
+                    <div className="col-sm-8">
 
 
                     </div>

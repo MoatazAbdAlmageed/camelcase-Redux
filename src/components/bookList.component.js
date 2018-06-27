@@ -57,11 +57,9 @@ const BookList = ()=>{
     ]
     return (
     <div className="BookList">
-        <ul>
         {books.map((book)=>{
             return <BookListItem key={book.id} book={book}/>
         })}
-        </ul>
     </div>
 )
 }
