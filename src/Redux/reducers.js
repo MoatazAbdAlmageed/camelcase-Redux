@@ -1,20 +1,19 @@
 import { combineReducers } from 'redux'
 
-const listBooks = (state, action)=> {
+const listBooks = (state, action)=>{
     // switch here
-}
-​
-
-
-const selctedBook = (state, action)=> {
-    // switch here
+    return {}
 }
 
+
+const selectedBook = (state, action)=> {
+    // switch here
+    return {}
+}
 
 
 const bookApp = combineReducers({
     listBooks,
-    selctedBook
-})
-​
+    selectedBook
+});
 export default bookApp
