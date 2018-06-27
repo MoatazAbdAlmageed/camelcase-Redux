@@ -16,7 +16,7 @@
 
 7 - :heavy_check_mark: doneCreate book detail component, with dummy selected book to display.
 
-8 - Create app component that contains all the created components, use it inside index.js .
+8 - :heavy_check_mark: Create app component that contains all the created components, use it inside index.js .
 
 9 - Replace the dummy book list array by the one coming from Redux state by connecting the component to Redux.
 
