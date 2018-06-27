@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import BookListItem from "./bookListItem.component";
 
 
 const BookList = ()=>{
@@ -58,7 +59,7 @@ const BookList = ()=>{
     <div className="BookList">
         <ul>
         {books.map((book)=>{
-            return <li key={book.id}>{book.name}</li>
+            return <BookListItem key={book.id} book={book}/>
         })}
         </ul>
     </div>

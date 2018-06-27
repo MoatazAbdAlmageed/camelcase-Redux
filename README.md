@@ -10,9 +10,9 @@
 
 4 - :heavy_check_mark: Create store inside index.js using return from 'combineReducers', and inject it inside react components via 'Provider' component.
 
-5 - Create book list component, with dummy book list array to display.
+5 - :heavy_check_mark: Create book list component, with dummy book list array to display.
 
-6 - Create book list item component.
+6 - :heavy_check_mark:Create book list item component.
 
 7 - Create book detail component, with dummy selected book to display.
 
