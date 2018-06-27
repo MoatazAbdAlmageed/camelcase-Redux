@@ -5,7 +5,7 @@
 
 3 - :heavy_check_mark: Combine the two reducers via 'combineReducers' method.
 
-4 - Create store inside index.js using return from 'combineReducers', and inject it inside react components via 'Provider' component.
+4 - :heavy_check_mark: Create store inside index.js using return from 'combineReducers', and inject it inside react components via 'Provider' component.
 
 5 - Create book list component, with dummy book list array to display.
 
