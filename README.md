@@ -1,9 +1,9 @@
 ### Camelcase Redux training
-1 - Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
+1 - :heavy_check_mark: Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
 
-2 - Create two reducers, one for list of books, and the other for the selected book.
+2 - :heavy_check_mark: Create two reducers, one for list of books, and the other for the selected book.
 
-3 - Combine the two reducers via 'combineReducers' method.
+3 - :heavy_check_mark: Combine the two reducers via 'combineReducers' method.
 
 4 - Create store inside index.js using return from 'combineReducers', and inject it inside react components via 'Provider' component.
 
