@@ -30,5 +30,14 @@
 .card{
   margin-top: 2em;
 }
-
+.BookList{
+  cursor: pointer;
+}
 .BookDetailed .card {height: 30em;}
+.badge{
+  margin-right: 2em;
+}
+
+body{
+  background: #333 !important;
+}
