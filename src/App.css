@@ -30,3 +30,5 @@
 .card{
   margin-top: 2em;
 }
+
+.BookDetailed .card {height: 30em;}

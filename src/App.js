@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import BookList from './components/bookList.component';
+import BookDetailed from "./components/bookDetailed.component";
 
 class App extends Component {
     render() {
@@ -13,7 +14,7 @@ class App extends Component {
                         <BookList/>
                     </div>
                     <div className="col-sm-8">
-
+                        <BookDetailed/>
 
                     </div>
 

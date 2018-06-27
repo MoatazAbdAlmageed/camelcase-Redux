@@ -14,7 +14,7 @@
 
 6 - :heavy_check_mark:Create book list item component.
 
-7 - Create book detail component, with dummy selected book to display.
+7 - :heavy_check_mark: doneCreate book detail component, with dummy selected book to display.
 
 8 - Create app component that contains all the created components, use it inside index.js .
 
