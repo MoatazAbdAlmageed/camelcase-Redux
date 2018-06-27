@@ -1,4 +1,7 @@
 ### Camelcase Redux training
+[![N|Redux](public/library_tutorial_mockup.png)](ReTube)
+
+
 1 - :heavy_check_mark: Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
 
 2 - :heavy_check_mark: Create two reducers, one for list of books, and the other for the selected book.
