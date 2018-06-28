@@ -1,20 +1,20 @@
-import React, {Component} from "react";
+import React from "react";
 import BookListItem from "./bookListItem.component";
-import { connect } from "react-redux";
+import {connect} from "react-redux";
 
 
-const mapStateToProps = function(state){
+const mapStateToProps = function (state) {
     return {
         books: state.listBooksReducer.books,
     }
 }
 
 
-const BookList =   ({books} ) =>{
+const BookList = ({books}) => {
     return (
         <div className="BookList">
-            {books.map((book)=>{
-                return <BookListItem key={book.id} book={book}  />
+            {books.map((book) => {
+                return <BookListItem key={book.id} book={book}/>
             })}
         </div>
     )

@@ -1,13 +1,8 @@
+export default function selectedBookReducer(state = {}, action) {
 
-export default   function selectedBookReducer(state={}, action) {
-
-    switch(action.type) {
+    switch (action.type) {
         case "SELECT_BOOK":
-            return {...state,book:action.payload};
-
-            break;
-        case false:
-            // code block
+            return {...state, book: action.payload};
             break;
         default:
             return state;
