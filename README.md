@@ -1,3 +1,6 @@
+### Demo (plnkr)
+https://next.plnkr.co/plunk/w1LkTfT816o18WFr
+
 ### Camelcase Redux training
 1 - Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
 
