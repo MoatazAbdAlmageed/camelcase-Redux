@@ -46,6 +46,6 @@
         "price": 30.50,
         "pages_i": 475
     },
-]
+];
 
  export default books;

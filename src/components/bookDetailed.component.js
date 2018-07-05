@@ -1,12 +1,12 @@
 import React from "react";
 import {connect} from "react-redux";
 
-const mapStateToProps = function (state) {
+const mapStateToProps =  (state)=> {
 
     return {
         book: state.selectedBook.book,
     }
-}
+};
 
 
 const BookDetailed = ({book}) => {
@@ -33,7 +33,7 @@ const BookDetailed = ({book}) => {
         </div>
 
     )
-}
+};
 
 
 export default connect(mapStateToProps)(BookDetailed)

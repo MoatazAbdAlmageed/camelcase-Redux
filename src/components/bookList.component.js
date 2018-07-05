@@ -22,7 +22,7 @@ class BookList extends React.Component {
 }
 
 
-const mapStateToProps = function (state) {
+const mapStateToProps =  (state)=> {
 
     return {
         books: state.booksList.books,
