@@ -1,6 +1,7 @@
 import  selectBookAction from "./selectBookAction"
-import  listBooksAction from "./listBooksAction"
+import  fetchBooksAction from "./fetchBooksAction";
+
 export  default  {
-    listBooksAction,
+    fetchBooksAction,
     selectBookAction,
 }

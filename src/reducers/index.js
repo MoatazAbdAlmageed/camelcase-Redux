@@ -1,8 +1,8 @@
 import combineReducers from "redux/src/combineReducers";
 
-import  listBooksReducer from "./listBooksReducer"
-import selectedBookReducer from "./selectedBookReducer";
+import  booksList from "./listBooksReducer"
+import selectedBook from "./selectedBookReducer";
 export  default  combineReducers({
-    listBooksReducer,
-    selectedBookReducer,
+    booksList,
+    selectedBook,
 })

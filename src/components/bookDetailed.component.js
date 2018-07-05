@@ -4,17 +4,9 @@ import {connect} from "react-redux";
 const mapStateToProps = function (state) {
 
     return {
-        book: state.selectedBookReducer.book,
+        book: state.selectedBook.book,
     }
 }
-//
-// const mapDispatchToProps = function (dispatch) {
-//
-//     return bindActionCreators({
-//         getSomething: actionCreators.getSomething,
-//     }, dispatch)
-// }
-//
 
 
 const BookDetailed = ({book}) => {
