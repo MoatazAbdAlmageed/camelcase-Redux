@@ -1,4 +1,4 @@
- const books = [
+const books = [
     {
         "id": "978-0641723445",
         "cat": ["book", "hardcover"],
@@ -48,4 +48,4 @@
     },
 ];
 
- export default books;
+export default books;

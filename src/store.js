@@ -1,11 +1,11 @@
-import { createStore } from 'redux'
+import {createStore} from 'redux'
 import reducers from './reducers'
 
-const store = createStore(reducers /*Original state*/ , window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(reducers /*Original state*/, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 
 /*subscribe*/
-store.subscribe(()=>{
+store.subscribe(() => {
     console.log("Store changed", store.getState());
 });
 

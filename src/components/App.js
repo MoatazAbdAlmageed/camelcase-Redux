@@ -9,7 +9,7 @@ const App = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-4">
-                        <BookList />
+                        <BookList/>
                     </div>
                     <div className="col-sm-8">
                         <BookDetailed/>
