@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import BookList from './components/bookList.component';
-import BookDetailed from "./components/bookDetailed.component";
+import BookList from './bookList.component';
+import BookDetailed from "./bookDetailed.component";
 
 const App = () => {
     return (
