@@ -41,7 +41,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = dispatch => ({
     ...bindActionCreators(
         {
-            fetchBooksAction: () => dispatch(actions.fetchBooksAction()),
+            fetchBooksAction: actions.fetchBooksAction,
         },
         dispatch,
     ),

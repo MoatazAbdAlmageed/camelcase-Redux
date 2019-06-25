@@ -7,7 +7,7 @@ const BookListItem = ({book, selected}) => {
     return (
         <div className="BookListItem">
             <div className="card" onClick={() => store.dispatch(actions.selectBookAction(book))}>
-                <div className={selected ? 'card-body active' : 'card-body'}>
+                <div className={`card-body ${selected ? 'active' : ''}`}>
                     <h5 className="card-title">
                         <div>{book.name}</div>
                     </h5>
