@@ -10,13 +10,14 @@ class BookList extends React.Component {
     }
 
     render() {
+
         if (!this.props.books) {
             return <p>Loading</p>
         }
         return <div className="BookList">
             <h1 className={'white'}>Available books</h1>
             {this.props.books.map((book) => {
-                return <BookListItem key={book.id} book={book}/>
+                return <BookListItem key={book.id} book={book} selected={this.props.selectedBook && this.props.selectedBook.id === book.id}/>
             })}
         </div>
     }
@@ -27,6 +28,7 @@ const mapStateToProps = (state) => {
 
     return {
         books: state.booksList.books,
+        selectedBook: state.selectedBook.book,
     }
 }
 

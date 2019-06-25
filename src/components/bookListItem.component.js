@@ -3,15 +3,11 @@ import store from '../store';
 import actions from '../actions'
 import './BookListItem.css';
 
-const BookListItem = ({book}) => {
-
+const BookListItem = ({book, selected}) => {
     return (
         <div className="BookListItem">
-            <div className="card" onClick={() => {
-                store.dispatch(actions.selectBookAction(book))
-
-            }}>
-                <div className="card-body">
+            <div className="card" onClick={() => store.dispatch(actions.selectBookAction(book))}>
+                <div className={selected ? 'card-body active' : 'card-body'}>
                     <h5 className="card-title">
                         <div>{book.name}</div>
                     </h5>

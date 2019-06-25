@@ -20,20 +20,20 @@ const BookDetailed = ({book}) => {
                         <table className="table table-bordered">
                             <thead>
                             <tr>
-                                <th>Author</th>
                                 <th>Name</th>
+                                <th>Author</th>
                                 <th>Pages</th>
                                 <th>Price</th>
-                                <th>Buy</th>
+                                <th>Link</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                                 <td>{book.name}</td>
-                                <td>{book.author}</td>
+                                <td>{book.author} <img className={'img-thumbnail'} src={`/assets/${book.author_avatar}`} alt=""/></td>
                                 <td>{book.pages_i}</td>
                                 <td>${book.price}</td>
-                                <td><a className="btn btn-primary">Buy Now</a></td>
+                                <td><a className="btn btn-primary" target='_blank' href={book.link}>Link</a></td>
                             </tr>
                             </tbody>
                         </table>
