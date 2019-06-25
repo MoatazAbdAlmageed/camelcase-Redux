@@ -2,13 +2,13 @@
 https://next.plnkr.co/plunk/w1LkTfT816o18WFr
 
 ### camelCase Redux training
-1 - Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
+1 - Create a base react app, with latest `redux` and `react-redux` libraries installed.
 
 2 - Create two reducers, one for list of books, and the other for the selected book.
 
-3 - Combine the two reducers via 'combineReducers' method.
+3 - Combine the two reducers via `combineReducers` method.
 
-4 - Create store inside index.js using return from 'combineReducers', and inject it inside react components via 'Provider' component.
+4 - Create store inside index.js using return from `combineReducers`, and inject it inside react components via `Provider` component.
 
 5 - Create book list component, with dummy book list array to display.
 
