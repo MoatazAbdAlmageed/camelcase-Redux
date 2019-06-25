@@ -9,6 +9,14 @@ class BookList extends React.Component {
         this.props.fetchBooksAction();
     }
 
+
+    renderList() {
+        return this.props.books.map((book) => {
+            return <BookListItem key={book.id} book={book}
+                                 selected={this.props.selectedBook && this.props.selectedBook.id === book.id}/>
+        })
+    }
+
     render() {
 
         if (!this.props.books) {
@@ -16,9 +24,7 @@ class BookList extends React.Component {
         }
         return <div className="BookList">
             <h1 className={'white'}>Available books</h1>
-            {this.props.books.map((book) => {
-                return <BookListItem key={book.id} book={book} selected={this.props.selectedBook && this.props.selectedBook.id === book.id}/>
-            })}
+            {this.renderList()}
         </div>
     }
 }
