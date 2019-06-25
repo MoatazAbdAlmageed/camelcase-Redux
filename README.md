@@ -1,7 +1,7 @@
 ### Demo (plnkr)
 https://next.plnkr.co/plunk/w1LkTfT816o18WFr
 
-### Camelcase Redux training
+### camelCase Redux training
 1 - Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
 
 2 - Create two reducers, one for list of books, and the other for the selected book.
