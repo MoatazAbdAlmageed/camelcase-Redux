@@ -1,5 +1,4 @@
 export default function ListBooksReducer(state = [], action) {
-debugger
     switch (action.type) {
         case "LIST_BOOKS":
             return {
