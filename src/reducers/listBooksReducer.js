@@ -2,15 +2,11 @@ export default function selectedBookReducer(state = [], action) {
 
     switch (action.type) {
         case "LIST_BOOKS":
-            // state= {...state, books: action.payload};
-            state = {books: action.payload};
-
-            break;
+            return {books: action.payload}
         default:
-            return state;
+            return state
     }
 
-    return state
 }
 
 
